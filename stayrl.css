@@ -1,0 +1,83 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("https://t3.ftcdn.net/jpg/05/18/96/42/360_F_518964221_y9azX3MA0sCoC89Kvg8Y6dedXoUj7CmZ.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.matn {
+    background-color: #457b9d;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    font-weight: bold;
+
+}
+.joylar {
+    padding: 40px 20px;
+    background-color: #f1faee;
+}
+.sarlaha2 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 50px;
+}
+ul {
+    display: flex;
+    list-style-type:none ;
+    text-align: center;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul > li {
+    max-width: 200px;
+}
+ul > li > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h3 {
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+footer {
+    padding: 50px 10px;
+}
+.karta {
+    width:430px ;
+    display: flex;
+    background-color: #a8dada;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.karta > img {
+    width: 180px;
+    border-radius: 10px;
+}
